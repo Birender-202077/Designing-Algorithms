@@ -37,12 +37,13 @@ def quickSort(array, low, high):
     quickSort(array, a + 1, high)
 
 #Test Case
-ls=[]
-ls = [int(x) for x in input("\nEnter the elements: ").split()]
-print("\nUnsorted Array: ", ls)
+if__name__='__main__':
+  ls=[]
+  ls = [int(x) for x in input("\nEnter the elements: ").split()]
+  print("\nUnsorted Array: ", ls)
 
-size = len(ls)
+  size = len(ls)
 
-quickSort(ls, 0, size - 1) #function call
+  quickSort(ls, 0, size - 1) #function call
 
-print('\nSorted Array in Ascending Order: ',ls,'\n')
+  print('\nSorted Array in Ascending Order: ',ls,'\n')
